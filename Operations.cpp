@@ -1,3 +1,4 @@
+#include "math.h"
 #include "Operations.h"
 
 int addition(int a, int b)
@@ -34,5 +35,15 @@ int factoriel(int nb)
     {
         result = result*i;
     }
+    return result;
+}
+
+int Distance(int x,int y)
+{
+    int result_carre;
+    float result;
+    result_carre= x*x+y*y;
+    result= sqrt(result_carre);
+
     return result;
 }
