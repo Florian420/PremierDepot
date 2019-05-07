@@ -27,6 +27,7 @@ int multiplication(int a,int b)
     return(a*b);
 }
 
+
 int exposant(int nb, int exp);
 {
     for (int i=0; i>exp; i--)
@@ -34,4 +35,14 @@ int exposant(int nb, int exp);
         nb=nb*nb;
     }
     return(nb)
+
+int factoriel(int nb)
+{
+    int result=nb;
+    for (int i=nb;i>0;i--)
+    {
+        result = result*i;
+    }
+    return result;
+
 }
